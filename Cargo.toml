@@ -1,0 +1,13 @@
+[package]
+name = "tire-verify"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rlp = "0.5"
+hasher = { version = "0.1", features = ["hash-keccak"] }
+
+[dev-dependencies]
+cita_trie = "4"
