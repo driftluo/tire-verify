@@ -11,3 +11,5 @@ hasher = { version = "0.1", features = ["hash-keccak"] }
 
 [dev-dependencies]
 cita_trie = "4"
+hex = "0.4"
+rand = "0.8"
